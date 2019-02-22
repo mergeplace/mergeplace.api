@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "Merge Prices",
+  "info": {
+    "name": "prices",
+    "description": "Merge Prices"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "day": {
+      "default": 100,
+      "unique": true,
+      "type": "integer",
+      "required": true
+    },
+    "week": {
+      "default": 500,
+      "unique": true,
+      "type": "integer",
+      "required": true
+    },
+    "month": {
+      "default": 1200,
+      "unique": true,
+      "type": "integer",
+      "required": true
+    },
+    "hour": {
+      "default": 150,
+      "unique": true,
+      "type": "integer",
+      "required": true
+    }
+  }
+}
